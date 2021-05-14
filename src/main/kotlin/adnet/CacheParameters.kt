@@ -1,0 +1,3 @@
+package adnet
+
+class CacheParameters

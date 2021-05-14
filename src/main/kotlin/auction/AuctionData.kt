@@ -1,0 +1,3 @@
+package auction
+
+class AuctionData
