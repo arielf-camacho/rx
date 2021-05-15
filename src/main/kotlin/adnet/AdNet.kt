@@ -6,7 +6,7 @@ import io.reactivex.rxjava3.core.Single
 interface AdNet {
     val appId: String
 
-    fun initialize(): Single<InitializationResult>
+    fun initialize(): Single<InitializationInfo>
 
     fun cache(cacheParameters: CacheParameters): Single<CacheResult>
 
