@@ -2,7 +2,8 @@ package adnet
 
 enum class InitializationResult {
     Successful,
-    Failed
+    Timeout,
+    Invalid
 }
 
 data class InitializationInfo(val adNet: AdNet, val result: InitializationResult)
